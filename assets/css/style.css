@@ -1,0 +1,87 @@
+ @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
+
+ *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+h2 {
+
+    padding-top: 15px;
+}
+
+/* Header */
+
+.nav-colour {
+  background-color: #ED5050;
+}
+
+/* Image Homepage */
+
+.jumbotron-1 {
+    background: url("../images/homepage.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+
+}
+
+/* Homepage text */
+
+.homepage-text {
+   color: #761D1D;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   text-align: center;
+}
+
+/* Homepage buttons */
+
+.homepage-buttons {
+    margin: 40px;
+    margin-top: 0px;
+    
+}
+
+.row-1 {
+    
+    text-align: center;
+
+}
+
+/* Image Welcome page */
+
+.jumbotron-2 {
+    background: url("../images/welcome.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+
+}
+
+/*Welcome page text*/
+
+.welcome-page-text {
+   color: #761D1D;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   text-align: center;
+}
+
