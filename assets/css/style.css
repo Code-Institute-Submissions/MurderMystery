@@ -15,6 +15,17 @@ h2 {
     padding-top: 15px;
 }
 
+
+.container-fluid {
+
+    padding: 0;
+
+}
+
+.row {
+    width: inherit;
+}
+
 /* Header */
 
 .nav-colour {
@@ -54,12 +65,6 @@ h2 {
     
 }
 
-.row-1 {
-    
-    text-align: center;
-
-}
-
 /* Image Welcome page */
 
 .jumbotron-2 {
@@ -85,3 +90,144 @@ h2 {
    text-align: center;
 }
 
+/* Image Witness page */
+
+.jumbotron-3 {
+    background: url("../images/witness.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+
+}
+
+
+
+.row-2 {
+    
+    border: 1px solid;
+    height: 100px;
+
+
+}
+
+/* Witness info text and buttons*/
+
+.witness-names {
+
+    font-size: 26px;
+    border: 1px solid;
+    height: 25%;
+    text-align: center;
+
+}
+
+
+
+.witness-names-text {
+
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    font-size: 36px;
+    color: #761D1D;
+}
+
+.witness-names-buttons {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+/* suspects info text and buttons*/
+
+.suspect-names {
+
+    font-size: 26px;
+    border: 1px solid;
+    height: 25%;
+    text-align: center;
+
+}
+
+
+
+.suspect-names-text {
+
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    font-size: 36px;
+    color: #761D1D;
+}
+
+.suspect-names-buttons {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+/* Image Suspect page */
+
+.jumbotron-4 {
+    background: url("../images/suspect.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+
+}
+
+/* Image Evidence page */
+
+.jumbotron-5 {
+    background: url("../images/evidence.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+
+}
+
+/* evidence info text and buttons*/
+
+.evidence-names {
+
+    font-size: 26px;
+    border: 1px solid;
+    height: 25%;
+    text-align: center;
+
+}
+
+
+
+.evidence-names-text {
+
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    font-size: 36px;
+    color: #761D1D;
+}
+
+.evidence-names-buttons {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
