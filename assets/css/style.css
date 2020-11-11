@@ -26,6 +26,7 @@ h2 {
     width: inherit;
 }
 
+
 /* Header */
 
 .nav-colour {
@@ -144,6 +145,21 @@ h2 {
 
 }
 
+.witness-desc {
+
+    font-size: 20px;
+    border: 1px solid;
+    height: 25%;
+
+}
+
+.witness-desc-text {
+
+    color: #761D1D;
+    margin: 25px;
+
+}
+
 /* suspects info text and buttons*/
 
 .suspect-names {
@@ -229,5 +245,20 @@ h2 {
 
     margin-top: 25px;
     margin-bottom: 25px;
+
+}
+
+.evidence-desc {
+
+    font-size: 20px;
+    border: 1px solid;
+    height: 25%;
+
+}
+
+.evidence-desc-text {
+
+    color: #761D1D;
+    margin: 25px;
 
 }
