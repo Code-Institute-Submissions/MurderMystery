@@ -122,9 +122,10 @@ h2 {
 .witness-names {
 
     font-size: 26px;
-    border: 1px solid;
+    border: 1px solid white;
     height: 25%;
     text-align: center;
+    background-color: #ED5050;
 
 }
 
@@ -135,7 +136,7 @@ h2 {
     margin-top: 25px;
     margin-bottom: 25px; 
     font-size: 36px;
-    color: #761D1D;
+    color: white;
 }
 
 .witness-names-buttons {
@@ -148,7 +149,7 @@ h2 {
 .witness-desc {
 
     font-size: 20px;
-    border: 1px solid;
+    border: 1px solid white;
     height: 25%;
 
 }
@@ -165,9 +166,10 @@ h2 {
 .suspect-names {
 
     font-size: 26px;
-    border: 1px solid;
+    border: 1px solid white;
     height: 25%;
     text-align: center;
+    background-color: #ED5050;
 
 }
 
@@ -178,13 +180,28 @@ h2 {
     margin-top: 25px;
     margin-bottom: 25px; 
     font-size: 36px;
-    color: #761D1D;
+    color: white;
 }
 
 .suspect-names-buttons {
 
     margin-top: 25px;
     margin-bottom: 25px;
+
+}
+
+.suspect-desc {
+
+    font-size: 20px;
+    border: 1px solid white;
+    height: 25%;
+
+}
+
+.suspect-desc-text {
+
+    color: #761D1D;
+    margin: 25px;
 
 }
 
@@ -225,9 +242,10 @@ h2 {
 .evidence-names {
 
     font-size: 26px;
-    border: 1px solid;
+    border: 1px solid white;
     height: 25%;
     text-align: center;
+    background-color: #ED5050;
 
 }
 
@@ -238,7 +256,7 @@ h2 {
     margin-top: 25px;
     margin-bottom: 25px; 
     font-size: 36px;
-    color: #761D1D;
+    color: white;
 }
 
 .evidence-names-buttons {
@@ -251,7 +269,7 @@ h2 {
 .evidence-desc {
 
     font-size: 20px;
-    border: 1px solid;
+    border: 1px solid white;
     height: 25%;
 
 }
