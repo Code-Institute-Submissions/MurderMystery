@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
         <title>Evidence</title>
     </head>
 <body>
@@ -48,11 +49,11 @@
             <p>Evidence 1 - Time of Death</p>
           </div>
           <div id="evidence-1" class="col col-md-6 col-sm-12 col-xs-12">
-            <button type="button" class="btn btn-lg btn-danger evidence-names-buttons" >OPEN</button>
+            <button type="button" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
           </div>
         </div>
       </div>
-      <div hidden id="evidence-1-text" class="container-fluid evidence-desc ">
+      <div id="evidence-1-text" class="container-fluid evidence-desc ">
         <div class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 evidence-desc-text">
             <p>The time of death for Holly green is believed to between 22:00-23:00.</p>
@@ -69,11 +70,11 @@
             <p>Evidence 2 - Cause of Death</p>
           </div>
           <div class="col col-md-6 col-sm-12 col-xs-12">
-            <button type="button" id="evidence-2" class="btn btn-lg btn-danger evidence-names-buttons" >OPEN</button>
+            <button type="button" id="evidence-2" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
           </div>
         </div>
       </div>
-      <div hidden  class="container-fluid evidence-desc">
+      <div id="evidence-2-text"  class="container-fluid evidence-desc">
         <div class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 evidence-desc-text">
             <p>Holly Green was stabbed in the back when sleeping.</p>
@@ -84,17 +85,17 @@
       </div>
     </section>
     <section>
-      <div class="container-fluid evidence-names  ">
+      <div  class="container-fluid evidence-names  ">
         <div class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 evidence-names-text">
             <p>Evidence 3 - Holly Green</p>
           </div>
           <div class="col col-md-6 col-sm-12 col-xs-12">
-            <button type="button" id="evidence-3" class="btn btn-lg btn-danger evidence-names-buttons" >OPEN</button>
+            <button type="button" id="evidence-3" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
           </div>
         </div>
       </div>
-      <div hidden  class="container-fluid evidence-desc">
+      <div id="evidence-3-text" class="container-fluid evidence-desc">
         <div class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 evidence-desc-text">
             <p>Holly Green lives with her husband Jim Green.</p>
@@ -110,11 +111,11 @@
             <p>Evidence 4 - Diary</p>
           </div>
           <div class="col col-md-6 col-sm-12 col-xs-12">
-            <button type="button" id="evidence-4" class="btn btn-lg btn-danger evidence-names-buttons" >OPEN</button>
+            <button type="button" id="evidence-4" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
           </div>
         </div>
       </div>
-      <div hidden  class="container-fluid evidence-desc">
+      <div id="evidence-4-text" class="container-fluid evidence-desc">
         <div  class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 evidence-desc-text">
             <p>A diary was found under Holly's pillow.</p>
@@ -122,13 +123,14 @@
             <p>This could mean that the diary could contain important information on what happened last night.</p>
             <p>However, there seems to be a lock on it that needs a code to unlock it.</p>
             <p>Try and find out the code.</p>
+            <p>Hint: 4 letter code. Word is something personal to Holly.</p>
           </div>
         </div>
       </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="js/evidence-script.js"></script>
 </body>
 </html>

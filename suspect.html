@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
         <title>Suspects</title>
 </head>
 <body>
@@ -38,7 +39,7 @@
 		</div>
 	</nav>
     <section>
-      <div class="container-fluid jumbotron-3">
+      <div class="container-fluid jumbotron-4">
       </div>
     </section>
     <section>
@@ -48,11 +49,11 @@
             <p>Suspect 1 - Addy Mire</p>
           </div>
           <div class="col col-md-6 col-sm-12 col-xs-12">
-            <button type="button" id="suspect-1" class="btn btn-lg btn-danger suspect-names-buttons" >OPEN</button>
+            <button type="button" id="suspect-1" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
           </div>
         </div>
       </div>
-      <div hidden class="container-fluid suspect-desc">
+      <div id="suspect-1-text" class="container-fluid suspect-desc">
         <div class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 suspect-desc-text">
             <p>Addy Mire is Holly and Jim Green's neighbour across the hall from them.</p>
@@ -74,11 +75,11 @@
             <p>Suspect 2 - Jim Green</p>
           </div>
           <div class="col col-md-6 col-sm-12 col-xs-12">
-            <button type="button" id="suspect-2" class="btn btn-lg btn-danger suspect-names-buttons" >OPEN</button>
+            <button type="button" id="suspect-2" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
           </div>
         </div>
       </div>
-      <div hidden class="container-fluid suspect-desc">
+      <div id="suspect-2-text" class="container-fluid suspect-desc">
         <div  class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 suspect-desc-text">
             <p>Jim is Holly's husband.</p>
@@ -103,11 +104,11 @@
             <p>Suspect 3 - Glen Wright</p>
           </div>
           <div class="col col-md-6 col-sm-12 col-xs-12">
-            <button type="button" id="suspect-3" class="btn btn-lg btn-danger suspect-names-buttons" >OPEN</button>
+            <button type="button" id="suspect-3" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
           </div>
         </div>
       </div>
-      <div  hidden class="container-fluid suspect-desc">
+      <div id="suspect-3-text" class="container-fluid suspect-desc">
         <div  class="row ">
           <div class="col col-md-6 col-sm-12 col-xs-12 suspect-desc-text">
             <p>Glen Wright is the man Holly was having an affair with.</p>
@@ -125,6 +126,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="js/suspect-script.js"></script>
 </body>
 </html>

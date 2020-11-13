@@ -26,6 +26,11 @@ h2 {
     width: inherit;
 }
 
+.row-1 {
+
+    text-align: center;
+}
+
 
 /* Header */
 
@@ -36,7 +41,7 @@ h2 {
 /* Image Homepage */
 
 .jumbotron-1 {
-    background: url("../images/homepage.jpg") no-repeat center center; 
+    background: url("./images/homepage.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,7 +49,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
     position: relative;
 
 }
@@ -69,7 +74,7 @@ h2 {
 /* Image Welcome page */
 
 .jumbotron-2 {
-    background: url("../images/welcome.jpg") no-repeat center center; 
+    background: url("./images/welcome.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,7 +99,7 @@ h2 {
 /* Image Witness page */
 
 .jumbotron-3 {
-    background: url("../images/witness.jpg") no-repeat center center; 
+    background: url("./images/witness.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -208,7 +213,7 @@ h2 {
 /* Image Suspect page */
 
 .jumbotron-4 {
-    background: url("../images/suspect.jpg") no-repeat center center; 
+    background: url("./images/suspect.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -224,7 +229,7 @@ h2 {
 /* Image Evidence page */
 
 .jumbotron-5 {
-    background: url("../images/evidence.jpg") no-repeat center center; 
+    background: url("./images/evidence.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -278,5 +283,54 @@ h2 {
 
     color: #761D1D;
     margin: 25px;
+
+}
+
+/*convict image*/
+
+.jumbotron-6 {
+    background: url("./images/convict.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+
+}
+
+.convict-form {
+
+    margin: 20px;
+    
+}
+
+/*contact form*/
+
+.form-group {
+
+    margin: 10px;
+    width: 90%;
+    color: #761D1D;
+
+}
+
+.button-submit {
+
+    margin: 10px;
+}
+
+.feedback-text {
+
+    margin: 10px;
+    color: #761D1D;
+}
+
+.feedback-para{
+
+    height: 30%;
 
 }
