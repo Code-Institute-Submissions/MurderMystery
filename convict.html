@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
         <title>Convict</title>
 </head>
 <body>
@@ -43,30 +44,50 @@
     </section>
     <section>
     <section>
-    <div class="feedback-text">
-      <p>Make sure that you have looked at all of the notes before you submit your answer.</p>
-      <p>I hope you're certain on the correct person as you could convict the wrong person.</p>
+    <div class="row-1">
+      <div class="feedback-text">
+        <p>Make sure that you have looked at all of the notes before you submit your answer.</p>
+        <p>I hope you're certain on the correct person as you could convict the wrong person.</p>
+      </div>
     </div>
     </section>
-    <form>
-       <div class="form-row align-items-center convict-form">
-       <div class="col-auto my-1">
-           <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+    <div class="container-fluid">
+      <div class="row justify-content-center" style="text-align: center;">
+           <select class=" col-3 custom-select mr-sm-2" id="convict">
             <option selected>Choose...</option>
             <option value="1">Addy Mire</option>
             <option value="2">Jim Green</option>
             <option value="3">Glen Wright</option>
            </select>
         </div>
-        <div class="col-auto my-1">
-           <button type="submit" class="btn btn-danger">Submit</button>
-         </div>
-        </div>
-      </form>
+    </div>
+    <div class="row-1 convict-button" id="submit-button">
+        <button type="button" class="btn btn-danger">Submit!</button>
+    </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <section>
+      <div class="row-1" id="glen-wright">
+      <p>Well Done! You found out who the killer is!</p>
+      <p>Glen killed Holly as he could not take her going back to her husband.</p>
+      <p>Please give me some feedback on how I can improve for my next case!</p>
+      <a href="contact.html" class="btn btn-danger btn-lg active homepage-buttons" role="button" aria-pressed="true">Feedback</a>
+      </div>
+      <div class="row-1" id="addy-mire">
+      <p>Unfortunately Addy Mire was not the killer.</p>
+      <p>You have arrested the wrong person.</p>
+      <p>The real killer has walked free while an inoccent person has been arrested.</p>
+      <a href="welcome.html" class="btn btn-danger btn-lg active homepage-buttons" role="button" aria-pressed="true">Start Again!</a>
+      </div>
+      <div class="row-1" id="jim-green">
+      <p>Unfortunately Jim Green was not the killer.</p>
+      <p>You have arrested the wrong person.</p>
+      <p>The real killer has walked free while an inoccent person has been arrested.</p>
+      <a href="welcome.html" class="btn btn-danger btn-lg active homepage-buttons" role="button" aria-pressed="true">Start Again!</a>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="js/convict-script.js"></script>
 </body>
 </html>
