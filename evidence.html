@@ -100,7 +100,7 @@
           <div class="col col-md-6 col-sm-12 col-xs-12 evidence-desc-text">
             <p>Holly Green lives with her husband Jim Green.</p>
             <p>Rumours has it that Holly was having an affair with Glen Wright.</p>
-            <p>Holly is breaking the rules of the flat by having a dog (Milo) who barks all night angering the neighbours.</p>
+            <p>Holly is breaking the rules of the flat by having a dog called Milo who barks all night angering the neighbours.</p>
             <p>Apart from a few dogs issues Holly seems to be liked by most of the neighbours.</p>
           </div>
         </div>
@@ -115,16 +115,35 @@
           </div>
         </div>
       </div>
-      <div id="evidence-4-text" class="container-fluid evidence-desc">
-        <div  class="row ">
-          <div class="col col-md-6 col-sm-12 col-xs-12 evidence-desc-text">
-            <p>A diary was found under Holly's pillow.</p>
-            <p>We have been told that Holly updates her diary each day before.</p>
-            <p>This could mean that the diary could contain important information on what happened last night.</p>
-            <p>However, there seems to be a lock on it that needs a code to unlock it.</p>
-            <p>Try and find out the code.</p>
-            <p>Hint: 4 letter code. Word is something personal to Holly.</p>
+      <div id="evidence-4-text" class="container-fluid evidence-desc">    
+        <div class="row-1 evidence-desc-text">
+          <p>A diary was found under Holly's pillow.</p>
+          <p>We have been told that Holly updates her diary each day before.</p>
+          <p>This could mean that the diary could contain important information on what happened last night.</p>
+          <p>However, there seems to be a lock on it that needs a code to unlock it.</p>
+          <p>Try and find out the code.</p>
+          <p>Hint: 4 letter code. The code is something personal to Holly.</p>
+          <label for="fname">Code:</label><br>
+          <input type="text" id="code-tb" name="code" required minlength="4" maxlength="4" size="10" style="border: #761D1D 1px solid;">
+          <div class="code-button">
+            <button type="button" id="code-button" class="btn btn-lg btn-danger" style="margin: 25px;">Open</button>
           </div>
+        </div>
+      </div>
+      <div id="diary-contents" class="container-fluid evidence-desc">
+        <div class="row-1 evidence-desc-text">
+          <p>Last Diary Entry Reads:</p>
+          <p>I told Glen about planning to tell jim about the affair.</p>
+          <p>He didnt take it well, bit worried about what he could do.</p>
+          <p>Jim took it as expected. He was upset and angry.</p>
+          <p>He went to his mothers to have some space and have a think.</p>
+          <p>I hope he comes around.</p>
+        </div>
+      </div>
+      <div id="#incorrect-code" class="container-fluid evidence-desc">
+        <div class="row-1 evidence-desc-text">
+          <p>The code is incorrect please refresh your page and try again.</p>
+          <p>Remember the code its a 4 letter word</p>
         </div>
       </div>
     </section>

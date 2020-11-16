@@ -4,6 +4,9 @@ $(document).ready(function() {
    $("#evidence-2-text").hide();
    $("#evidence-3-text").hide();
    $("#evidence-4-text").hide();
+   $("#diary-contents").hide();
+   $("#incorrect-code").hide();
+
 
 
 });
@@ -23,3 +26,11 @@ $("#evidence-3").click(function() {
 $("#evidence-4").click(function() {
        $("#evidence-4-text").toggle("slow");
    });
+
+$(".code-button").click(function() {
+    if ("#code-tb" === "Milo") {
+        $("#diary-contents").show();
+    } else {
+        $("#incorrect-code").show();
+    }
+});

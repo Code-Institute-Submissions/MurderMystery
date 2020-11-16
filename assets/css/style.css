@@ -29,6 +29,7 @@ h2 {
 .row-1 {
 
     text-align: center;
+    align-content: center;
 }
 
 
@@ -254,7 +255,11 @@ h2 {
 
 }
 
+#code-button {
 
+    margin: 20px;
+    align-content: center;
+}
 
 .evidence-names-text {
 
