@@ -25,12 +25,22 @@ $("#evidence-3").click(function() {
 
 $("#evidence-4").click(function() {
        $("#evidence-4-text").toggle("slow");
+       $("#diary-contents").hide("slow");
+       $("#incorrect-code").hide("slow")
    });
 
+var code = $("#code-tb").val();
+
 $(".code-button").click(function() {
-    if ("#code-tb" === "Milo") {
+
+    var code = $("#code-tb").val();
+
+    if (code === "Milo") {
         $("#diary-contents").show();
+        $("#incorrect-code").hide();
     } else {
         $("#incorrect-code").show();
+        
     }
+    console.log(code);
 });
