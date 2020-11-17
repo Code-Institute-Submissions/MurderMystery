@@ -139,7 +139,7 @@ The website will have 7 pages altogether. Each page will have a nav bar that wil
 
 # Testing
 
-The testing I have done has been documented on a different document. This is the link:
+The testing I have done has been documented on a different document. This is the link: https://github.com/callumhearne/MurderMystery/blob/master/Testing.md
 
 # Deploying my Project
 
