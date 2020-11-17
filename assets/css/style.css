@@ -32,6 +32,13 @@ h2 {
     align-content: center;
 }
 
+.row-2 {
+    
+    border: 1px solid;
+    height: 100px;
+
+
+}
 
 /* Header */
 
@@ -110,16 +117,6 @@ h2 {
     justify-content: center;
     height: 60vh;
     position: relative;
-
-}
-
-
-
-.row-2 {
-    
-    border: 1px solid;
-    height: 100px;
-
 
 }
 
@@ -328,7 +325,7 @@ h2 {
 
 .feedback-text {
 
-    margin: 10px;
+    
     color: #761D1D;
 }
 

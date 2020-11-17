@@ -1,156 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <title>Evidence</title>
-    </head>
-<body>
-	<nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
-		  <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
-		  <div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-					<a class="nav-link" href="homepage.html">Homepage</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="evidence.html">Evidence</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="witness.html">Witnesses</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="suspect.html">Suspects</a>
-				</li>
-			</ul>
-			<span class="navbar-text">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Evidence</title>
+   </head>
+   <body>
+   <!-- Nav bar -->
+      <nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
+         <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Buttons linking to the different pages -->
+         <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="homepage.html">Homepage</a>
+               </li>
+               <li class="nav-item active">
+                  <a class="nav-link" href="evidence.html">Evidence</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="witness.html">Witnesses</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="suspect.html">Suspects</a>
+               </li>
+            </ul>
+            <span class="navbar-text">
             </span>
-		</div>
-	</nav>
-    <section>
-      <div class="container-fluid jumbotron-5">
-      </div>
-    </section>
-    <section>
-      <div class="container-fluid evidence-names">
-        <div>
-          <div class="evidence-names-text">
-            <p>Evidence 1 - Time of Death</p>
-          </div>
-          <div id="evidence-1">
-            <button type="button" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
-          </div>
-        </div>
-      </div>
-      <div id="evidence-1-text" class="container-fluid evidence-desc ">
-        <div>
-          <div class="evidence-desc-text">
-            <p>The time of death for Holly green is believed to between 22:00-23:00.</p><br>
-            <p>Holly Green was found in her bed.</p><br>
-            <p>Holly Green was heard arguing at 22:00 so the death is estimated in the tail end of 22:00</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container-fluid evidence-names  ">
-        <div>
-          <div class="evidence-names-text">
-            <p>Evidence 2 - Cause of Death</p>
-          </div>
-          <div class="col col-md-12 col-sm-12 col-xs-12">
-            <button type="button" id="evidence-2" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
-          </div>
-        </div>
-      </div>
-      <div id="evidence-2-text"  class="container-fluid evidence-desc">
-        <div>
-          <div class="evidence-desc-text">
-            <p>Holly Green was stabbed in the back when sleeping.</p><br>
-            <p>She was left to bleed to death.</p><br>
-            <p>The stab wound size only seems to be able to house a small knife or pocket knife.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div  class="container-fluid evidence-names  ">
-        <div>
-          <div class="evidence-names-text">
-            <p>Evidence 3 - Holly Green</p>
-          </div>
-          <div>
-            <button type="button" id="evidence-3" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
-          </div>
-        </div>
-      </div>
-      <div id="evidence-3-text" class="container-fluid evidence-desc">
-        <div>
-          <div class="evidence-desc-text">
-            <p>Holly Green lives with her husband Jim Green.</p><br>
-            <p>Rumours has it that Holly was having an affair with Glen Wright.</p><br>
-            <p>Holly is breaking the rules of the flat by having a dog called Milo who barks all night angering the neighbours.</p><br>
-            <p>Apart from a few dogs issues, Holly seems to be liked by most of the neighbours.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid evidence-names  ">
-        <div>
-          <div class="evidence-names-text">
-            <p>Evidence 4 - Diary</p>
-          </div>
-          <div>
-            <button type="button" id="evidence-4" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
-          </div>
-        </div>
-      </div>
-      <div id="evidence-4-text" class="container-fluid evidence-desc">    
-        <div class="row-1 evidence-desc-text">
-          <p>A diary was found under Holly's pillow.</p><br>
-          <p>We have been told that Holly updates her diary each day before.</p><br>
-          <p>This could mean that the diary could contain important information on what happened last night.</p><br>
-          <p>However, there seems to be a lock on it that needs a code to unlock it.</p><br>
-          <p>Try and find out the code.</p><br>
-          <p>Hint: 4 letter code. The code is something personal to Holly.</p><br>
-          <label for="fname">Code:</label><br>
-          <input type="text" id="code-tb" name="code" required minlength="4" maxlength="4" size="10" style="border: #761D1D 1px solid;">
-          <div class="code-button">
-            <button type="button" id="code-button" class="btn btn-lg btn-danger" style="margin: 25px;">Open</button>
-          </div>
-        </div>
-      </div>
-      <div id="diary-contents" class="container-fluid evidence-desc">
-        <div class="row-1 evidence-desc-text">
-          <p>Last Diary Entry Reads:</p>
-          <p>I told Glen about planning to tell jim about the affair.</p>
-          <p>He didnt take it well, bit worried about what he could do.</p>
-          <p>Jim took it as expected. He was upset and angry.</p>
-          <p>He went to his mothers to have some space and have a think.</p>
-          <p>I hope he comes around.</p>
-        </div>
-      </div>
-      <div id="incorrect-code" class="container-fluid evidence-desc">
-        <div class="row-1 evidence-desc-text">
-          <p>The code is incorrect please refresh your page and try again.</p>
-          <p>Remember the code its a 4 letter word</p>
-        </div>
-      </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
-    <script src="js/evidence-script.js"></script>
-</body>
+         </div>
+      </nav>
+      <!-- Page Image -->
+      <section>
+         <div class="container-fluid jumbotron-5">
+         </div>
+      </section>
+      <section>
+      <!-- Evidence name and button -->
+         <div class="container-fluid evidence-names">
+            <div>
+               <div class="evidence-names-text">
+                  <p>Evidence 1 - Time of Death</p>
+               </div>
+               <div id="evidence-1">
+                  <button type="button" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
+               </div>
+            </div>
+         </div>
+         <!-- Evidence text -->
+         <div id="evidence-1-text" class="container-fluid evidence-desc ">
+            <div>
+               <div class="evidence-desc-text">
+                  <p>The time of death for Holly green is believed to between 22:00-23:00.</p>
+                  <br>
+                  <p>Holly Green was found in her bed.</p>
+                  <br>
+                  <p>Holly Green was heard arguing at 22:00 so the death is estimated in the tail end of 22:00</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+      <!-- Evidence name and button -->
+         <div class="container-fluid evidence-names  ">
+            <div>
+               <div class="evidence-names-text">
+                  <p>Evidence 2 - Cause of Death</p>
+               </div>
+               <div class="col col-md-12 col-sm-12 col-xs-12">
+                  <button type="button" id="evidence-2" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
+               </div>
+            </div>
+         </div>
+         <div id="evidence-2-text"  class="container-fluid evidence-desc">
+            <div>
+            <!-- Evidence text -->
+               <div class="evidence-desc-text">
+                  <p>Holly Green was stabbed in the back when sleeping.</p>
+                  <br>
+                  <p>She was left to bleed to death.</p>
+                  <br>
+                  <p>The stab wound size only seems to be able to house a small knife or pocket knife.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+      <!-- Evidence name and button -->
+         <div  class="container-fluid evidence-names  ">
+            <div>
+               <div class="evidence-names-text">
+                  <p>Evidence 3 - Holly Green</p>
+               </div>
+               <div>
+                  <button type="button" id="evidence-3" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
+               </div>
+            </div>
+         </div>
+         <div id="evidence-3-text" class="container-fluid evidence-desc">
+            <div>
+            <!-- Evidence text -->
+               <div class="evidence-desc-text">
+                  <p>Holly Green lives with her husband Jim Green.</p>
+                  <br>
+                  <p>Rumours has it that Holly was having an affair with Glen Wright.</p>
+                  <br>
+                  <p>Holly is breaking the rules of the flat by having a dog called Milo who barks all night angering the neighbours.</p>
+                  <br>
+                  <p>Apart from a few dogs issues, Holly seems to be liked by most of the neighbours.</p>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid evidence-names  ">
+            <div>
+            <!-- Evidence name and button -->
+               <div class="evidence-names-text">
+                  <p>Evidence 4 - Diary</p>
+               </div>
+               <div>
+                  <button type="button" id="evidence-4" class="btn btn-lg btn-danger evidence-names-buttons" >Notes</button>
+               </div>
+            </div>
+         </div>
+         <div id="evidence-4-text" class="container-fluid evidence-desc">
+         <!-- Evidence text -->
+            <div class="row-1 evidence-desc-text">
+               <p>A diary was found under Holly's pillow.</p>
+               <br>
+               <p>We have been told that Holly updates her diary each day before.</p>
+               <br>
+               <p>This could mean that the diary could contain important information on what happened last night.</p>
+               <br>
+               <p>However, there seems to be a lock on it that needs a code to unlock it.</p>
+               <br>
+               <p>Try and find out the code.</p>
+               <br>
+               <p>Hint: 4 letter code. The code is something personal to Holly.</p>
+               <br>
+               <!-- Evidence diary code -->
+               <label>Code:</label><br>
+               <input type="text" id="code-tb" name="code" required minlength="4" maxlength="4" size="10" style="border: #761D1D 1px solid;">
+               <div class="code-button">
+                  <button type="button" id="code-button" class="btn btn-lg btn-danger" style="margin: 25px;">Open</button>
+               </div>
+            </div>
+         </div>
+         <div id="diary-contents" class="container-fluid evidence-desc">
+            <div class="row-1 evidence-desc-text">
+            <!-- Text if answer is correct -->
+               <p>Last Diary Entry Reads:</p>
+               <br>
+               <p>I told Glen about planning to tell jim about the affair.</p>
+               <br>
+               <p>He didnt take it well, bit worried about what he could do.</p>
+               <br>
+               <p>Jim took it as expected. He was upset and angry.</p>
+               <br>
+               <p>He went to his mothers to have some space and have a think.</p>
+               <br>
+               <p>I hope he comes around.</p>
+            </div>
+         </div>
+         <div id="incorrect-code" class="container-fluid evidence-desc">
+            <div class="row-1 evidence-desc-text">
+            <!-- Text if answer is incorrect -->
+               <p>The code is incorrect please try again.</p>
+               <br>
+               <p>Remember the code its a 4 letter word</p>
+            </div>
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+      <script src="js/evidence-script.js"></script>
+   </body>
 </html>

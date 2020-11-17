@@ -1,65 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Contact Us</title>
-</head>
-<body>
-	<nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
-		  <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
-		  <div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-					<a class="nav-link" href="homepage.html">Homepage</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="evidence.html">Evidence</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="witness.html">Witnesses</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="suspect.html">Suspects</a>
-				</li>
-			</ul>
-			<span class="navbar-text">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Contact Us</title>
+   </head>
+   <body>
+   <!-- Nav bar -->
+      <nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
+         <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Buttons to the other pages -->
+         <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="homepage.html">Homepage</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="evidence.html">Evidence</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="witness.html">Witnesses</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="suspect.html">Suspects</a>
+               </li>
+            </ul>
+            <span class="navbar-text">
             </span>
-		</div>
-	</nav>
-    <section>
-    <div class="feedback-text">
-      <p>Just going to give a quick thank you to everyone who has played my murder mystrey game.</p><br>
-      <p>Please send feedback. All feedback is welcome! Good and bad.</p>
-    </div>
-    </section>
-    <section>
-      <form onsubmit="return sendMail(this);">
-        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
-        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br>
-        <textarea rows="5" name="userfeedback" class="form-control" id="userfeedback" placeholder="User Feedback" required></textarea><br>
-        <button type="submit" class="btn btn-danger center-block">Send Feedback</button>
-      </form>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">(function(){
-        emailjs.init("user_ZsGfUJOV66pQ3SLKKXSM0");
-        })();
-    </script>
-    <script src="js/contact-script.js"></script> 
-</body>
+         </div>
+      </nav>
+      <section>
+      <!-- Bit of text on the feedback page -->
+      <div class="container feedback-text">
+            <br>
+            <p>Just going to give a quick thank you to everyone who has played my murder mystrey game.</p>
+            <br>
+            <p>Please send feedback. All feedback is welcome! Good and bad.</p>
+            <br>
+            <!-- Feedback form -->
+         <form onsubmit="return sendMail(this);">
+            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
+            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br>
+            <textarea rows="5" name="userfeedback" class="form-control" id="userfeedback" placeholder="User Feedback" required></textarea><br>
+            <!-- Send Button -->
+            <button type="submit" class="btn btn-danger center-block">Send Feedback</button>
+         </form>
+      </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+      <!-- script to send emails -->
+      <script type="text/javascript">(function(){
+         emailjs.init("user_ZsGfUJOV66pQ3SLKKXSM0");
+         })();
+      </script>
+      <script src="js/contact-script.js"></script> 
+   </body>
 </html>

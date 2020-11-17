@@ -1,12 +1,14 @@
 # Murder Mystery
 
+![image of my website](https://github.com/callumhearne/MurderMystery/blob/master/image.JPG)
+
 Murder Mystery is exactly what it is named a murder mystery. All my life I have been watching TV programmes about solving murders, so I decided it would be fun to make a website and try to right my own murder mystery.
 
 The idea to create the website for a murder mystery when I was discussing with my parents who also are really interested in murder mystery mentioned they would like to solve their own sort of murder mystery.
 
 This is my second of four milestone projects that make up my Full Stack Web Development course at THE CODE INSTITUTE. The main requirements are to make a responsive website with HTML5, CSS3 and Java Script.
 
-Here is the link to my live website :
+Here is the link to my live website : https://callumhearne.github.io/7th-Gateshead-Scouts/
 
 # UX
 
@@ -22,11 +24,11 @@ Here is the link to my live website :
 ## New Users
 
 - I am a new user who was searching online to find a free game to let me experience trying to solve a murder.
-- I am a new user who wanted to see if I was clever enough to solve a murder myself after watchingso many TV programmes on it.
+- I am a new user who wanted to see if I was clever enough to solve a murder myself after watching so many TV programmes on it.
 
 ## Returning User
 
-- I am a returning user who wasn't able to solve the murder first time around so I'm going to try again as I think there is bits ive missed.
+- I am a returning user who wasn't able to solve the murder first time around so I'm going to try again as I think there is bits Ive missed.
 
 ## Tablet User
 
@@ -109,3 +111,70 @@ The website will have 7 pages altogether. Each page will have a nav bar that wil
 - There is some text.
 - Followed by the feedback form.
 
+# Techology used
+
+- HTML5
+   - HTML5 was used to create and add content to the website.
+- CSS3
+   - CSS3 was used to style all of the HTML5 to match my design on Figma.
+- JavaScript
+   - JaveScript was used to help make my nav bar repsonsive.
+- Bootstrap framework
+   - Bootstrap was used to create the nav bar and containers for the website.
+- Gitpod
+   - Gitpod was used as a space for me to be able to code and test my website.
+- GitHub
+   - GitHub was used to host my website and store all of my code
+- Jquery
+   - Jquery was used to help make the if statements
+- EmailJS
+   - EmailJS was used to make 
+
+## Additional Techology used
+
+- Figma
+   - Figma was used so that I can design my website before I started to make it.
+- Google Fonts
+   - I used google fonts to set the fonts for my website (roboto).
+
+# Testing
+
+The testing I have done has been documented on a different document. This is the link:
+
+# Deploying my Project
+
+I created my project on GitHub and coded it on Gitpod. The following link wil take you to me live project. https://callumhearne.github.io/7th-Gateshead-Scouts/
+
+## Deploying to GitHub
+
+To deploy my work on GitHub I did the following:
+1. I opened up my settings.
+2. Scrolled down to "GitHub Pages" section.
+3. From here, I selected the "master branch" as my source.
+4. Then selected "save".
+
+# Credits:
+
+## Content
+
+All of the details and information that were in my website were completely made up for the purpose of the website.
+
+## Images
+
+All the photos were from Unsplash here are the artists who took them:
+
+   - Bill Oxford
+   - Grant Durr
+   - Markus Winkler 
+   - Michelle Ding
+   - Viktor Talashuk
+   - Volodymyr Hryshchenko
+
+Link to Unsplash here : https://unsplash.com/
+
+# Acknowlegdements:
+
+Thank you to the following people who helped with support and guidance at different stages in the project:
+
+- The guidance and support of my mentor Seun Owonikoko.
+- The supportive Code Institute community, including my fellow students and the tutor support team.

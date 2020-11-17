@@ -1,132 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <title>Suspects</title>
-</head>
-<body>
-	<nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
-		  <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
-		  <div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-					<a class="nav-link" href="homepage.html">Homepage</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="evidence.html">Evidence</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="witness.html">Witnesses</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link active" href="suspect.html">Suspects</a>
-				</li>
-			</ul>
-			<span class="navbar-text">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Suspects</title>
+   </head>
+   <body>
+   <!-- Nav bar -->
+      <nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
+         <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Buttons to all of the pages -->
+         <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="homepage.html">Homepage</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="evidence.html">Evidence</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="witness.html">Witnesses</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="suspect.html">Suspects</a>
+               </li>
+            </ul>
+            <span class="navbar-text">
             </span>
-		</div>
-	</nav>
-    <section>
-      <div class="container-fluid jumbotron-4">
-      </div>
-    </section>
-    <section>
-      <div class="container-fluid suspect-names  ">
-        <div>
-          <div class="suspect-names-text">
-            <p>Suspect 1 - Addy Mire</p>
-          </div>
-          <div>
-            <button type="button" id="suspect-1" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
-          </div>
-        </div>
-      </div>
-      <div id="suspect-1-text" class="container-fluid suspect-desc">
-        <div>
-          <div class="suspect-desc-text">
-            <p>Addy Mire is Holly and Jim Green's neighbour across the hall from them.</p><br>
-            <p>After speaking to other neighbours apprently Holly was suppose dog sit for Addy.</p><br>
-            <p>Holly accidently let Addy's dog out and Addy never found her dog again.</p>
-            <p>Addy has never forgiven Holly.</p><br>
-            <p>It seems that what happened to Addy's dog has now happened to Holly's dog</p><br>
-            <p>Could be revenge.</p><br>
-            <p>When questioned on her where abouts during the crime, she claims to be in her flat.</p><br>
-            <p>There is no one to confirm Addy's alibi.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section> 
-      <div class="container-fluid suspect-names  ">
-        <div>
-          <div class="suspect-names-text">
-            <p>Suspect 2 - Jim Green</p>
-          </div>
-          <div>
-            <button type="button" id="suspect-2" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
-          </div>
-        </div>
-      </div>
-      <div id="suspect-2-text" class="container-fluid suspect-desc">
-        <div>
-          <div class="suspect-desc-text">
-            <p>Jim is Holly's husband.</p><br>
-            <p>Holly's friends have let us know that she planned to tell Jim everything about the affair she was having.</p><br>
-            <p>From what witnesses it seems Jim didn't take the new well.</p><br>
-            <p>He was the last person to have seen Holly according to witnesses.</p><br>
-            <p>Lastly he was caught running from the flat in angery state going towards his car.</p><br>
-            <p>When questioned where he had went Jim claims he went to his Mothers house to think things through.</p><br>
-            <p>His Mother confirms this saying he arrived at 23:00.</p><br>
-            <p>This is strange as it only takes 20 minutes to get there.</p><br>
-            <p>This gives him the time to go back quietly and kill Holly before getting to his Mother's</p><br>
-            <p>Jim also owns a pocket knife that matches the size of the wound but, claims to have lost it.</p><br>
-            <p>This pocket knife is fairly common.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container-fluid suspect-names  ">
-        <div>
-          <div class="suspect-names-text">
-            <p>Suspect 3 - Glen Wright</p>
-          </div>
-          <div>
-            <button type="button" id="suspect-3" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
-          </div>
-        </div>
-      </div>
-      <div id="suspect-3-text" class="container-fluid suspect-desc">
-        <div>
-          <div class="suspect-desc-text">
-            <p>Glen Wright is the man Holly was having an affair with.</p><br>
-            <p>Glen lives in the same building as Holly and Jim.</p><br>
-            <p>The Neighbours who know him claim that he had fallen for Holly and it wasn't just an affair for him.</p><br>
-            <p>The Neighbours are unsure if Holly had told Glen that she was coming clean to Jim.</p><br>
-            <p>Niamh Drew did mention that he did seem a bit off when she saw him in the morning.</p><br>
-            <p>Glen claims that during the crime he was heading home from work.</p><br>
-            <p>When checking out Glen's alibi his work claims that he left at 21:30.</p><br>
-            <p>This gives him enough time to get to Holly's to commit the crime.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
-    <script src="js/suspect-script.js"></script>
-</body>
+         </div>
+      </nav>
+      <section>
+      <!-- Page image -->
+         <div class="container-fluid jumbotron-4">
+         </div>
+      </section>
+      <section>
+      <!-- Suspect name and button -->
+         <div class="container-fluid suspect-names  ">
+            <div>
+               <div class="suspect-names-text">
+                  <p>Suspect 1 - Addy Mire</p>
+               </div>
+               <div>
+                  <button type="button" id="suspect-1" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
+               </div>
+            </div>
+         </div>
+         <div id="suspect-1-text" class="container-fluid suspect-desc">
+            <div>
+               <div class="suspect-desc-text">
+               <!-- Suspect text -->
+                  <p>Addy Mire is Holly and Jim Green's neighbour across the hall from them.</p>
+                  <br>
+                  <p>After speaking to other neighbours apprently Holly was suppose dog sit for Addy.</p>
+                  <br>
+                  <p>Holly accidently let Addy's dog out and Addy never found her dog again.</p>
+                  <p>Addy has never forgiven Holly.</p>
+                  <br>
+                  <p>It seems that what happened to Addy's dog has now happened to Holly's dog</p>
+                  <br>
+                  <p>Could be revenge.</p>
+                  <br>
+                  <p>When questioned on her where abouts during the crime, she claims to be in her flat.</p>
+                  <br>
+                  <p>There is no one to confirm Addy's alibi.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+      <!-- Suspect name and button -->
+         <div class="container-fluid suspect-names  ">
+            <div>
+               <div class="suspect-names-text">
+                  <p>Suspect 2 - Jim Green</p>
+               </div>
+               <div>
+                  <button type="button" id="suspect-2" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
+               </div>
+            </div>
+         </div>
+         <div id="suspect-2-text" class="container-fluid suspect-desc">
+            <div>
+               <div class="suspect-desc-text">
+               <!-- Suspect text -->
+                  <p>Jim is Holly's husband.</p>
+                  <br>
+                  <p>Holly's friends have let us know that she planned to tell Jim everything about the affair she was having.</p>
+                  <br>
+                  <p>From what witnesses it seems Jim didn't take the new well.</p>
+                  <br>
+                  <p>He was the last person to have seen Holly according to witnesses.</p>
+                  <br>
+                  <p>Lastly he was caught running from the flat in angery state going towards his car.</p>
+                  <br>
+                  <p>When questioned where he had went Jim claims he went to his Mothers house to think things through.</p>
+                  <br>
+                  <p>His Mother confirms this saying he arrived at 23:00.</p>
+                  <br>
+                  <p>This is strange as it only takes 20 minutes to get there.</p>
+                  <br>
+                  <p>This gives him the time to go back quietly and kill Holly before getting to his Mother's</p>
+                  <br>
+                  <p>Jim also owns a pocket knife that matches the size of the wound but, claims to have lost it.</p>
+                  <br>
+                  <p>This pocket knife is fairly common.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+      <!-- Suspect name and button -->
+         <div class="container-fluid suspect-names  ">
+            <div>
+               <div class="suspect-names-text">
+                  <p>Suspect 3 - Glen Wright</p>
+               </div>
+               <div>
+                  <button type="button" id="suspect-3" class="btn btn-lg btn-danger suspect-names-buttons" >Notes</button>
+               </div>
+            </div>
+         </div>
+         <div id="suspect-3-text" class="container-fluid suspect-desc">
+            <div>
+               <div class="suspect-desc-text">
+               <!-- Suspect text -->
+                  <p>Glen Wright is the man Holly was having an affair with.</p>
+                  <br>
+                  <p>Glen lives in the same building as Holly and Jim.</p>
+                  <br>
+                  <p>The Neighbours who know him claim that he had fallen for Holly and it wasn't just an affair for him.</p>
+                  <br>
+                  <p>The Neighbours are unsure if Holly had told Glen that she was coming clean to Jim.</p>
+                  <br>
+                  <p>Niamh Drew did mention that he did seem a bit off when she saw him in the morning.</p>
+                  <br>
+                  <p>Glen claims that during the crime he was heading home from work.</p>
+                  <br>
+                  <p>When checking out Glen's alibi his work claims that he left at 21:30.</p>
+                  <br>
+                  <p>This gives him enough time to get to Holly's to commit the crime.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+      <script src="js/suspect-script.js"></script>
+   </body>
 </html>

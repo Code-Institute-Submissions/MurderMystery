@@ -1,121 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <title>Witnesses</title>
-</head>
-<body>
-	<nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
-		  <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
-		  <div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-					<a class="nav-link" href="homepage.html">Homepage</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="evidence.html">Evidence</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="witness.html">Witnesses</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="suspect.html">Suspects</a>
-				</li>
-			</ul>
-			<span class="navbar-text">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Witnesses</title>
+   </head>
+   <body>
+   <!-- nav bar -->
+      <nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
+         <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Buttons to the other pages -->
+         <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="homepage.html">Homepage</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="evidence.html">Evidence</a>
+               </li>
+               <li class="nav-item active">
+                  <a class="nav-link" href="witness.html">Witnesses</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="suspect.html">Suspects</a>
+               </li>
+            </ul>
+            <span class="navbar-text">
             </span>
-		</div>
-	</nav>
-    <section>
-      <div class="container-fluid jumbotron-3">
-      </div>
-    </section>
-    <section>
-      <div class="container-fluid witness-names  ">
-        <div>
-          <div class="witness-names-text">
-            <p>Witness 1 - James Ireland</p>
-          </div>
-          <div>
-            <button type="button" id="witness-1" class="btn btn-lg btn-danger witness-names-buttons" >OPEN</button>
-          </div>
-        </div>
-      </div>
-      <div id="witness-1-text" class="container-fluid witness-desc">
-        <div>
-          <div class="witness-desc-text">
-            <p>James Ireland lives to the left of Holly and Jim Green.</p><br>
-            <p>He claims to have heard a lot of arguing at about 22:00.</p><br>
-            <p>He also heard a door slam suspecting someone had left but is unsure.</p><br>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container-fluid witness-names  ">
-        <div>
-          <div class="witness-names-text">
-            <p>Witness 2 - Niamh Drew</p>
-          </div>
-          <div>
-            <button type="button" id="witness-2" class="btn btn-lg btn-danger witness-names-buttons" >OPEN</button>
-          </div>
-        </div>
-      </div>
-       <div id="witness-2-text" class="container-fluid witness-desc">
-        <div>
-          <div class="witness-desc-text">
-            <p>Niamh Drew lives directly below Holly and Jim Green.</p><br>
-            <p>Niamh said she was woken from Holly's dog (Milo) barking as Niamh had left he window open.</p><br>
-            <p>Assuming Glen was at Holly's because Milo hates Glen.</p><br>
-            <p>When going to close her window Niamh noticed that Holly's window was open.</p><br>
-            <p>Niamh found this strange as Holly never has her window open.</p><br>
-            <p>Niamh then closed her window and went to bed.</p><br>
-            <p>This was just after 22:30.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container-fluid witness-names  ">
-        <div>
-          <div class="witness-names-text">
-            <p>Witness 3 - Amy Shepard</p>
-          </div>
-          <div>
-            <button type="button" id="witness-3" class="btn btn-lg btn-danger witness-names-buttons" >OPEN</button>
-          </div>
-        </div>
-      </div>
-       <div id="witness-3-text" class="container-fluid witness-desc">
-        <div>
-          <div class="witness-desc-text">
-            <p>Amy lives to the right of Holly and Jim Green.</p><br>
-            <p>Amy also heard the argument at 22:00 in Holly's flat.</p><br>
-            <p>Amy said she got curious and checked out her front door.</p><br>
-            <p>She saw Jim rushing down the stairs.</p><br>
-            <p>He was bright red with rage.</p><br>
-            <p>Amy also said she heard a dog running around the hallway after 22:45 barking a lot.</p><br>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
-    <script src="js/witness-script.js"></script>
-</body>
+         </div>
+      </nav>
+      <section>
+      <!-- Page image -->
+         <div class="container-fluid jumbotron-3">
+         </div>
+      </section>
+      <section>
+         <div class="container-fluid witness-names  ">
+            <div>
+            <!-- Witness name and button -->
+               <div class="witness-names-text">
+                  <p>Witness 1 - James Ireland</p>
+               </div>
+               <div>
+                  <button type="button" id="witness-1" class="btn btn-lg btn-danger witness-names-buttons" >OPEN</button>
+               </div>
+            </div>
+         </div>
+         <div id="witness-1-text" class="container-fluid witness-desc">
+            <div>
+               <div class="witness-desc-text">
+               <!-- Witness text -->
+                  <p>James Ireland lives to the left of Holly and Jim Green.</p>
+                  <br>
+                  <p>He claims to have heard a lot of arguing at about 22:00.</p>
+                  <br>
+                  <p>He also heard a door slam suspecting someone had left but is unsure.</p>
+                  <br>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="container-fluid witness-names  ">
+            <div>
+            <!-- Witness name and button -->
+               <div class="witness-names-text">
+                  <p>Witness 2 - Niamh Drew</p>
+               </div>
+               <div>
+                  <button type="button" id="witness-2" class="btn btn-lg btn-danger witness-names-buttons" >OPEN</button>
+               </div>
+            </div>
+         </div>
+         <div id="witness-2-text" class="container-fluid witness-desc">
+            <div>
+               <div class="witness-desc-text">
+               <!-- Witness text -->
+                  <p>Niamh Drew lives directly below Holly and Jim Green.</p>
+                  <br>
+                  <p>Niamh said she was woken from Holly's dog (Milo) barking as Niamh had left he window open.</p>
+                  <br>
+                  <p>Assuming Glen was at Holly's because Milo hates Glen.</p>
+                  <br>
+                  <p>When going to close her window Niamh noticed that Holly's window was open.</p>
+                  <br>
+                  <p>Niamh found this strange as Holly never has her window open.</p>
+                  <br>
+                  <p>Niamh then closed her window and went to bed.</p>
+                  <br>
+                  <p>This was just after 22:30.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="container-fluid witness-names  ">
+            <div>
+            <!-- Witness name and button -->
+               <div class="witness-names-text">
+                  <p>Witness 3 - Amy Shepard</p>
+               </div>
+               <div>
+                  <button type="button" id="witness-3" class="btn btn-lg btn-danger witness-names-buttons" >OPEN</button>
+               </div>
+            </div>
+         </div>
+         <div id="witness-3-text" class="container-fluid witness-desc">
+            <div>
+               <div class="witness-desc-text">
+               <!-- Witness text -->
+                  <p>Amy lives to the right of Holly and Jim Green.</p>
+                  <br>
+                  <p>Amy also heard the argument at 22:00 in Holly's flat.</p>
+                  <br>
+                  <p>Amy said she got curious and checked out her front door.</p>
+                  <br>
+                  <p>She saw Jim rushing down the stairs.</p>
+                  <br>
+                  <p>He was bright red with rage.</p>
+                  <br>
+                  <p>Amy also said she heard a dog running around the hallway after 22:45 barking a lot.</p>
+                  <br>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+      <script src="js/witness-script.js"></script>
+   </body>
 </html>

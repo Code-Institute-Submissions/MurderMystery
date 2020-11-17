@@ -1,3 +1,4 @@
+/*Script for sending emails automatically*/
 function sendMail(contactform) {
     emailjs.send("gmail","MurderMysteryFeedback", {
         "from_name" : contactform.name.value,

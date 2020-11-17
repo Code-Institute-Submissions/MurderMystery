@@ -1,94 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <title>Convict</title>
-</head>
-<body>
-	<nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
-		  <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
-		  <div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-					<a class="nav-link" href="homepage.html">Homepage</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="evidence.html">Evidence</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="witness.html">Witnesses</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="suspect.html">Suspects</a>
-				</li>
-			</ul>
-			<span class="navbar-text">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Convict</title>
+   </head>
+   <body>
+   <!-- Nav bar -->
+      <nav class="navbar navbar-expand-md nav-colour navbar-dark" style="background-color: #ED5050;" >
+         <a class="navbar-brand" href="homepage.html">MURDER MYSTERY</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            <!-- Buttons to other pages -->
+               <li class="nav-item">
+                  <a class="nav-link" href="homepage.html">Homepage</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="evidence.html">Evidence</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="witness.html">Witnesses</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="suspect.html">Suspects</a>
+               </li>
+            </ul>
+            <span class="navbar-text">
             </span>
-		</div>
-	</nav>
-    <section>
-      <div class="container-fluid jumbotron-6">
-      </div>
-    </section>
-    <section>
-    <section>
-    <div class="row-1">
-      <div class="feedback-text">
-        <p>Make sure that you have looked at all of the notes before you submit your answer.</p><br>
-        <p>I hope you're certain on the correct person as you could convict the wrong person.</p><br>
-      </div>
-    </div>
-    </section>
-    <div class="container-fluid">
-      <div class="row justify-content-center" style="text-align: center;">
-           <select class=" col-3 custom-select mr-sm-2" id="convict">
-            <option selected>Choose...</option>
-            <option value="1">Addy Mire</option>
-            <option value="2">Jim Green</option>
-            <option value="3">Glen Wright</option>
-           </select>
-        </div>
-    </div>
-    <div class="row-1 convict-button" id="submit-button">
-        <button type="button" class="btn btn-danger">Submit!</button>
-    </div>
-    </section>
-    <section>
-      <div class="row-1" id="glen-wright">
-      <p>Well Done! You found out who the killer is!</p><br>
-      <p>Glen killed Holly as he could not take her going back to her husband.</p><br>
-      <p>Please give me some feedback on how I can improve for my next case!</p><br>
-      <a href="contact.html" class="btn btn-danger active homepage-buttons" role="button" aria-pressed="true" style="margin : 20px;">Feedback</a>
-      </div>
-      <div class="row-1" id="addy-mire">
-      <p>Unfortunately Addy Mire was not the killer.</p><br>
-      <p>You have arrested the wrong person.</p><br>
-      <p>The real killer has walked free while an inoccent person has been arrested.</p><br>
-      <a href="welcome.html" class="btn btn-danger active homepage-buttons" role="button" aria-pressed="true" style="margin : 20px;">Start Again!</a>
-      </div>
-      <div class="row-1" id="jim-green">
-      <p>Unfortunately Jim Green was not the killer.</p><br>
-      <p>You have arrested the wrong person.</p><br>
-      <p>The real killer has walked free while an inoccent person has been arrested.</p><br>
-      <a href="welcome.html" class="btn btn-danger active homepage-buttons" role="button" aria-pressed="true" style="margin : 20px;">Start Again!</a>
-      </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery-3.5.1.js">
-    </script><script src="js/convict-script.js"></script>
-</body>
+         </div>
+      </nav>
+      <section>
+      <!-- Page Image -->
+         <div class="container-fluid jumbotron-6">
+         </div>
+      </section>
+      <section>
+         <section>
+            <div class="row-1">
+               <div class="feedback-text">
+               <!-- Text before the submission -->
+                  <p>Make sure that you have looked at all of the notes before you submit your answer.</p>
+                  <br>
+                  <p>I hope you're certain on the correct person as you could convict the wrong person.</p>
+                  <br>
+               </div>
+            </div>
+         </section>
+         <div class="container-fluid">
+            <div class="row justify-content-center" style="text-align: center;">
+            <!-- Select class for the if statement -->
+               <select class=" col-3 custom-select mr-sm-2" id="convict">
+                  <option selected>Choose...</option>
+                  <option value="1">Addy Mire</option>
+                  <option value="2">Jim Green</option>
+                  <option value="3">Glen Wright</option>
+               </select>
+            </div>
+         </div>
+         <!-- Submit button -->
+         <div class="row-1 convict-button" id="submit-button">
+            <button type="button" class="btn btn-danger">Submit!</button>
+         </div>
+      </section>
+      <section>
+      <!-- Text if answer is correct -->
+         <div class="row-1" id="glen-wright">
+            <p>Well Done! You found out who the killer is!</p>
+            <br>
+            <p>Glen killed Holly as he could not take her going back to her husband.</p>
+            <br>
+            <p>Please give me some feedback on how I can improve for my next case!</p>
+            <br>
+            <a href="contact.html" class="btn btn-danger active homepage-buttons" role="button" aria-pressed="true" style="margin : 20px;">Feedback</a>
+         </div>
+         <div class="row-1" id="addy-mire">
+         <!-- Text if answer is incorrect -->
+            <p>Unfortunately Addy Mire was not the killer.</p>
+            <br>
+            <p>You have arrested the wrong person.</p>
+            <br>
+            <p>The real killer has walked free while an inoccent person has been arrested.</p>
+            <br>
+            <a href="index.html" class="btn btn-danger active homepage-buttons" role="button" aria-pressed="true" style="margin : 20px;">Start Again!</a>
+         </div>
+         <div class="row-1" id="jim-green">
+         <!-- Text if answer is incorrect -->
+            <p>Unfortunately Jim Green was not the killer.</p>
+            <br>
+            <p>You have arrested the wrong person.</p>
+            <br>
+            <p>The real killer has walked free while an inoccent person has been arrested.</p>
+            <br>
+            <a href="index.html" class="btn btn-danger active homepage-buttons" role="button" aria-pressed="true" style="margin : 20px;">Start Again!</a>
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/jquery-3.5.1.js"></script><script src="js/convict-script.js"></script>
+   </body>
 </html>
