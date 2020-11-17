@@ -55,3 +55,57 @@ To make sure I knew what I was doing before creating my website I first created 
 Link to my Figma
 https://www.figma.com/file/imdVcvKZFXExd7NJi7xu4A/Interactive-Fronted-Development-Milestone-Project?node-id=0%3A1
 
+# Features
+
+The website will have 7 pages altogether. Each page will have a nav bar that will allow the user to be able to go to the Homepage, Evidence page, Suspects page and Witnesses page.
+
+## Introduction page
+
+- Page starts with an image.
+- There is some text explaining what the user will be doing on the website.
+- There is a button that will take the user to the Homepage.
+
+## Homepage
+
+- Page starts with an image.
+- There is more text further explaining what the user will be doing.
+- After the text there is button linking to the Evidence, Witnesses, Suspects and Convict page.
+
+## Evidence Page
+
+- Page starts with an image.
+- On this page there will be 4 sections. To open a section there will be an Notes button.
+- First section is Time of Death.
+- Second section is Cause of Death.
+- Third Section is the victim.
+- Forth Section is The diary section with has an if statement code to open it.
+
+## Witnesses page
+
+- Page starts with an image.
+- On this page there will be 3 sections. To open a section there will be an Notes button.
+- First section is James Ireland.
+- Second section is Niamh Drew.
+- Third Section is Amy Shepard.
+
+## Suspects page
+
+- Page starts with an image.
+- On this page there will be 3 sections. To open a section there will be an Notes button.
+- First section is Addy Mire.
+- Second section is Jim Green.
+- Third Section is Glen Wright.
+
+## Convict Page
+
+- This page starts with an image.
+- There is a little bit of descripton on what the page is.
+- This is the page the user will have the choice on what suspect to pick.
+- Depending on who they pick there will be a if statement that will give them a link to either the welcome page or contact page depending on if they got the right person.
+
+## Contact page
+
+- This page starts with an image.
+- There is some text.
+- Followed by the feedback form.
+
