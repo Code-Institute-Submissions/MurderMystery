@@ -81,3 +81,5 @@ Manually testing the website features
 - On the evidence page I made sure the if statement worked by putting the code in correctly and incorrectly.
 - For the convict page I made sure that the if statement worked by putting in all the options to see if the correct text and button would come up for all of them. Doing this help me discover that since I had renamed one of the files the button no longer worked so that had to be adjusted.
 - On the contact to test that the contact form I made sure that I sent my self a few emails with different input.
+- I have tested my website on each browser to make sure that it runs correctly.
+- I have used the dev tools to see if my website is repsonsive at all sizes as well as testing that it works on my phone.

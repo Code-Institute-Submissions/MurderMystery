@@ -11,15 +11,12 @@ p {
 }
 
 h2 {
-
     padding-top: 15px;
 }
 
 
 .container-fluid {
-
     padding: 0;
-
 }
 
 .row {
@@ -27,17 +24,13 @@ h2 {
 }
 
 .row-1 {
-
     text-align: center;
     align-content: center;
 }
 
 .row-2 {
-    
     border: 1px solid;
     height: 100px;
-
-
 }
 
 /* Header */
@@ -59,7 +52,6 @@ h2 {
     justify-content: center;
     height: 70vh;
     position: relative;
-
 }
 
 /* Homepage text */
@@ -75,8 +67,7 @@ h2 {
 
 .homepage-buttons {
     margin: 40px;
-    margin-top: 0px;
-    
+    margin-top: 0px;  
 }
 
 /* Image Welcome page */
@@ -92,7 +83,6 @@ h2 {
     justify-content: center;
     height: 60vh;
     position: relative;
-
 }
 
 /*Welcome page text*/
@@ -117,19 +107,16 @@ h2 {
     justify-content: center;
     height: 60vh;
     position: relative;
-
 }
 
 /* Witness info text and buttons*/
 
 .witness-names {
-
     font-size: 26px;
     border: 1px solid white;
     height: 25%;
     text-align: center;
     background-color: #ED5050;
-
 }
 
 
@@ -143,10 +130,8 @@ h2 {
 }
 
 .witness-names-buttons {
-
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
 .witness-desc {
@@ -154,32 +139,27 @@ h2 {
     font-size: 20px;
     border: 1px solid white;
     height: 25%;
-
 }
 
 .witness-desc-text {
 
     color: #761D1D;
     margin: 25px;
-
 }
 
 /* suspects info text and buttons*/
 
 .suspect-names {
-
     font-size: 26px;
     border: 1px solid white;
     height: 25%;
     text-align: center;
     background-color: #ED5050;
-
 }
 
 
 
 .suspect-names-text {
-
     margin-top: 25px;
     margin-bottom: 25px; 
     font-size: 36px;
@@ -187,25 +167,19 @@ h2 {
 }
 
 .suspect-names-buttons {
-
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
 .suspect-desc {
-
     font-size: 20px;
     border: 1px solid white;
     height: 25%;
-
 }
 
 .suspect-desc-text {
-
     color: #761D1D;
     margin: 25px;
-
 }
 
 /* Image Suspect page */
@@ -221,7 +195,6 @@ h2 {
     justify-content: center;
     height: 60vh;
     position: relative;
-
 }
 
 /* Image Evidence page */
@@ -237,29 +210,24 @@ h2 {
     justify-content: center;
     height: 60vh;
     position: relative;
-
 }
 
 /* evidence info text and buttons*/
 
 .evidence-names {
-
     font-size: 26px;
     border: 1px solid white;
     height: 25%;
     text-align: center;
     background-color: #ED5050;
-
 }
 
 #code-button {
-
     margin: 20px;
     align-content: center;
 }
 
 .evidence-names-text {
-
     margin-top: 25px;
     margin-bottom: 25px; 
     font-size: 36px;
@@ -267,25 +235,19 @@ h2 {
 }
 
 .evidence-names-buttons {
-
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
 .evidence-desc {
-
     font-size: 20px;
     border: 1px solid white;
     height: 25%;
-
 }
 
 .evidence-desc-text {
-
     color: #761D1D;
     margin: 25px;
-
 }
 
 /*convict image*/
@@ -301,7 +263,6 @@ h2 {
     justify-content: center;
     height: 60vh;
     position: relative;
-
 }
 
 .convict-button {
@@ -311,26 +272,19 @@ h2 {
 /*contact form*/
 
 .form-group {
-
     margin: 10px;
     width: 90%;
     color: #761D1D;
-
 }
 
 .button-submit {
-
     margin: 10px;
 }
 
 .feedback-text {
-
-    
     color: #761D1D;
 }
 
 .feedback-para{
-
     height: 30%;
-
 }

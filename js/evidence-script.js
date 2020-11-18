@@ -17,14 +17,17 @@ $(document).ready(function() {
 $("#evidence-1").click(function() {
        $("#evidence-1-text").toggle("slow");
    });
+
 /*Click button to show text*/
 $("#evidence-2").click(function() {
        $("#evidence-2-text").toggle("slow");
    });
+
 /*Click button to show text*/
 $("#evidence-3").click(function() {
        $("#evidence-3-text").toggle("slow");
    });
+   
 /*Click button to show text and hide the answer feedback*/
 $("#evidence-4").click(function() {
        $("#evidence-4-text").toggle("slow");

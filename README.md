@@ -4,7 +4,7 @@
 
 Murder Mystery is exactly what it is named a murder mystery. All my life I have been watching TV programmes about solving murders, so I decided it would be fun to make a website and try to right my own murder mystery.
 
-The idea to create the website for a murder mystery when I was discussing with my parents who also are really interested in murder mystery mentioned they would like to solve their own sort of murder mystery.
+The idea to create the website for a murder mystery when I was talking to my parents, who also are really interested in murder mystery, mentioned they would like to solve their own sort of murder mystery.
 
 This is my second of four milestone projects that make up my Full Stack Web Development course at THE CODE INSTITUTE. The main requirements are to make a responsive website with HTML5, CSS3 and Java Script.
 

@@ -18,12 +18,13 @@ $("#submit-button").click(function() {
     /*if the select text is this show the text related to them*/
     if (selectedText == "Glen Wright") {
         $("#glen-wright").show();
+
     /*if the select text is this show the text related to them*/
     } else if (selectedText == "Jim Green") {
         $("#jim-green").show();
+
     /*if the select text is this show the text related to them*/
     } else if (selectedText == "Addy Mire"){
         $("#addy-mire").show();
-
     }
 });
